@@ -121,36 +121,10 @@ O script deve implementar as operações **CRUD** na tabela `alunos`.
 
 ---
 <details open>
-<summary>📁 src</summary>
-
-<details open>
-<summary>📁 app</summary>
-
-- 📄 layout.tsx
-- 📄 page.tsx
-
-</details>
-
-<details open>
-<summary>📁 components</summary>
-
-<details open>
-<summary>📁 ui</summary>
-
-- 📄 button.tsx
-
-</details>
-
-- 📄 header.tsx
-- 📄 footer.tsx
-
-</details>
-
-<details open>
-<summary>📁 lib</summary>
-
-- 📄 utils.ts
-
-</details>
-
+    <summary>📁 src</summary>
+    - 📄README.md
+    - 📄app_flask.py
+    - 📄app_sqlite.py
+    - 📄requirements.txt
+    - 📄tabela_alunos.png
 </details>
