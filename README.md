@@ -122,6 +122,7 @@ O script deve implementar as operações **CRUD** na tabela `alunos`.
 ---
 <details open>
 <summary>📁 src</summary>
+    
 - 📄README.md
 - 📄app_flask.py
 - 📄app_sqlite.py
