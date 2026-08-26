@@ -121,11 +121,16 @@ O script deve implementar as operações **CRUD** na tabela `alunos`.
 
 ---
 <details open>
-<summary>📁 src</summary>
+<summary>📁 Avaliação</summary>
+<details>
+<summary>📁 templates</summary>    
+
+- 📄 index.html
+</details>
     
-- 📄README.md
-- 📄app_flask.py
-- 📄app_sqlite.py
-- 📄requirements.txt
-- 📄tabela_alunos.png
+- 📄 README.md
+- 📄 app_flask.py
+- 📄 app_sqlite.py
+- 📄 requirements.txt
+- 📄 tabela_alunos.png
 </details>
