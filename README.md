@@ -120,3 +120,37 @@ O script deve implementar as operações **CRUD** na tabela `alunos`.
 - [ ] Confirmou a exclusão listando os registros restantes.  
 
 ---
+<details open>
+<summary>📁 src</summary>
+
+<details open>
+<summary>📁 app</summary>
+
+- 📄 layout.tsx
+- 📄 page.tsx
+
+</details>
+
+<details open>
+<summary>📁 components</summary>
+
+<details open>
+<summary>📁 ui</summary>
+
+- 📄 button.tsx
+
+</details>
+
+- 📄 header.tsx
+- 📄 footer.tsx
+
+</details>
+
+<details open>
+<summary>📁 lib</summary>
+
+- 📄 utils.ts
+
+</details>
+
+</details>
