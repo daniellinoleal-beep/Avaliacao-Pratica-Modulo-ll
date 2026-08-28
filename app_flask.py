@@ -8,6 +8,34 @@ def index():
     return render_template("index.html")
 
 ## Continue o código aqui.
+@app.route("/soma")
+def soma():
+    v1 = float(request.args.get("valor1"))
+    v2 = float(request.args.get("valor2"))
+    resultado = v1+v2
+    return {"resultado": resultado}
+
+@app.route("/subtrair")
+def subtrair():
+    v1 = float(request.args.get("valor1"))
+    v2 = float(request.args.get("valor2"))
+    resultado = v1-v2
+    return {"resultado": resultado}
+
+@app.route("/multiplicar")
+def multiplicar():
+    v1 = float(request.args.get("valor1"))
+    v2 = float(request.args.get("valor2"))
+    resultado = v1*v2
+    return {"resultado": resultado}
+
+@app.route("/dividir")
+def dividir():
+    v1 = float(request.args.get("valor1"))
+    v2 = float(request.args.get("valor2"))
+    resultado = v1/v2
+    return {"resultado": resultado}
+
 
 if __name__ == "__main__":
     app.run(debug=True)
